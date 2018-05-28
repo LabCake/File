@@ -1,4 +1,4 @@
-# Path
+# File
 A simple class for creating temporary files in PHP
 
 Usage example
