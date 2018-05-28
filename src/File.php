@@ -16,6 +16,10 @@ class File
     protected $_fileName;
     protected $fp;
 
+    /**
+     * File constructor.
+     * @param null|string $content
+     */
     public function __construct($content = null)
     {
         $directory = self::getTempDir();
@@ -30,6 +34,9 @@ class File
         fwrite($this->fp, $content);
     }
 
+    /**
+     * @return resource
+     */
     public function getFp()
     {
         return $this->fp;
