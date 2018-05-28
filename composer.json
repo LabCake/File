@@ -1,0 +1,10 @@
+{
+  "name": "labcake/file",
+  "description": "A simple class for creating temporary files in PHP",
+  "license" : "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "LabCake\\": "src/"
+    }
+  }
+}
